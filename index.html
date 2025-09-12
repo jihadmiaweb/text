@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Typed.js Example</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="./src/style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+
+</head>
+
+<body class="scroll-smooth">
+  <div class="px-20 bg-[#101123] min-h-screen ">
+    <div class="container">
+      <!-- naveber start  -->
+      <div class="navber">
+        <div class="flex justify-between items-center py-5">
+          <!-- Logo -->
+          <span class="font-bold text-2xl text-white">JIHAD MIA</span>
+
+          <!-- Menu Items -->
+          <ul class="hidden md:flex gap-5 font-bold">
+            <li><a href="#home" class="text-sky-500 hover:text-sky-700">HOME</a></li>
+            <li><a href="#about" class="text-sky-500 hover:text-sky-700">ABOUT</a></li>
+            <li><a href="#experience" class="text-sky-500 hover:text-sky-700">EXPERIENCE</a></li>
+            <li><a href="#skills" class="text-sky-500 hover:text-sky-700">SKILLS</a></li>
+            <li><a href="#education" class="text-sky-500 hover:text-sky-700">EDUCATION</a></li>
+            <li><a href="#blogs" class="text-sky-500 hover:text-sky-700">BLOGS</a></li>
+            <li><a href="#projects" class="text-sky-500 hover:text-sky-700">PROJECTS</a></li>
+          </ul>
+
+
+          <button class="md:hidden text-sky-400 text-2xl">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </div>
+
+
+      <!-- <-- naveber end -->
+      <!-- <-- biner start -->
+      <div id="home"
+        class="bg-[#101123] min-h-screen flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-20 py-10">
+        <!-- Left Content -->
+        <div class="w-full md:w-1/2 text-center md:text-left">
+          <!-- Heading -->
+          <div class="text-[28px] sm:text-[32px] md:text-[40px] font-bold text-white py-6 leading-snug">
+            <h1>
+              <span class="block">Hello,</span>
+              This is <span class="text-fuchsia-500">JIHAD MIA,</span>
+              <span class="block">I'm a Professional</span>
+              <span class="text text-cyan-800"></span>
+            </h1>
+          </div>
+
+          <!-- Social Icons -->
+          <div class="flex justify-center md:justify-start gap-4">
+            <a href="#"
+              class="text-fuchsia-800 text-3xl sm:text-4xl transition duration-300 hover:text-yellow-950 hover:scale-125">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="#"
+              class="text-cyan-700 text-3xl sm:text-4xl transition duration-300 hover:text-yellow-500 hover:scale-125">
+              <i class="fa-brands fa-square-facebook"></i>
+            </a>
+            <a href="#"
+              class="text-rose-400 text-3xl sm:text-4xl transition duration-300 hover:text-emerald-800 hover:scale-125">
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="#"
+              class="text-gray-500 text-3xl sm:text-4xl transition duration-300 hover:text-fuchsia-700 hover:scale-125">
+              <i class="fa-brands fa-telegram"></i>
+            </a>
+          </div>
+
+          <!-- Buttons -->
+          <div
+            class="font-bold text-[16px] sm:text-[18px] md:text-[20px] text-white pt-5 flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center md:justify-start">
+            <button
+              class="border-2 border-gray-700 px-4 py-2 rounded-2xl transition duration-200 hover:text-yellow-950 hover:scale-105">
+              CONTACT ME <i class="fa-solid fa-phone-volume"></i>
+            </button>
+            <button
+              class="border border-gray-700 px-4 py-2 rounded-2xl bg-fuchsia-800 transition duration-200 hover:bg-sky-700 hover:scale-105">
+              GET RESUME <i class="fa-solid fa-download"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Right Image -->
+        <div class="w-full md:w-1/2 flex justify-center mb-8 md:mb-0">
+          <img
+            class="rounded-[30px] object-cover w-[220px] h-[260px] sm:w-[280px] sm:h-[320px] md:w-[400px] md:h-[450px]"
+            src="./public/imags/1.jpeg" alt="Profile Picture">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- biner end - -->
+  <!-- hireo sissone start -->
+  <div id="about" class="HiOre container">
+    <div
+      class="bg-[#101123] min-h-screen px-6 md:px-20 flex flex-col md:flex-row items-center justify-between gap-10 py-10">
+
+      <!-- Left Content -->
+      <div class=" sm:pt-10 text-white max-w-lg text-center md:text-left">
+        <h2 class="text-2xl text-center text-fuchsia-700 font-bold mb-6">
+          Who Am I?
+        </h2>
+        <p class="text-[18px] leading-relaxed">
+          Hi, I'm <span class="text-fuchsia-400 font-semibold">JIHAD MIA</span> —
+          a dedicated and motivated Front-End Web Developer with a strong passion
+          for building modern, responsive, and user-friendly web applications.
+          I specialize in
+          <span class="text-sky-400">HTML5, Tailwind CSS, Bootstrap,
+            JavaScript, React.js, and Next.js</span>. I love turning creative ideas
+          into real-world projects and I'm also comfortable working with backend
+          technologies like Node.js, Express.js, Firebase, and MongoDB for
+          full-stack development.
+        </p>
+      </div>
+
+      <!-- Right Image -->
+      <div class="flex justify-center">
+        <img src="./public/imags/2.png" alt="hover gray image"
+          class="w-[220px] md:w-[300px] h-[220px] md:h-[300px] rounded-xl object-cover transition duration-300 hover:grayscale hover:scale-105 hover:rotate-3 shadow-lg" />
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- <hireo sissone end -->
+  <!-- <-- Experiences sission start -->
+
+  <div id="experience" class="Experiences">
+    <div class="container mx-auto min-h-screen bg-[#101123] px-6 md:px-20 flex flex-col">
+
+      <!-- Section Title -->
+      <div class="text-center pt-6">
+        <button
+          class="text-2xl font-bold text-white bg-gray-500 rounded-md px-6 py-2 shadow-lg hover:bg-gray-600 transition">
+          Experiences
+        </button>
+      </div>
+
+      <!-- Content -->
+      <div class="flex flex-col md:flex-row justify-between items-center gap-10 mt-10">
+
+        <!-- Image -->
+        <div class="w-full sm:w-[100px] md:w-1/2 flex justify-center bg-[#101123]">
+          <img src="/imags/download.png" alt="Experience Logo"
+            class="object-cover rounded-lg shadow-md w-full max-w-md md:max-w-none">
+        </div>
+
+        <!-- Experience Boxes -->
+        <div class="box-item w-full md:w-1/2 flex flex-col gap-6">
+
+          <!-- Card 1 -->
+          <div
+            class="text-white px-5 py-4 bg-[#101123] border border-stone-700 transition duration-300 rounded-lg shadow-md hover:shadow-xl">
+            <span class="block text-center text-emerald-800 font-bold text-[15px]">(Sep 2025-Present)</span>
+            <div class="flex flex-col sm:flex-row items-center sm:items-start mt-2 gap-4">
+              <div class="text-2xl text-blue-700 text-center sm:text-left">
+                <i class="fa-solid fa-laptop"></i>
+              </div>
+              <div class="text-center sm:text-left">
+                <h1 class="text-[20px] font-bold">FRONT-END DEVELOPER INSTRUCTOR</h1>
+                <p class="text-[14px] font-normal">Ahmad's IT Institute</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div
+            class="px-5 py-4 glow-card glow-card-experience-1 h-fit cursor-pointer border border-stone-700 transition-all duration-500 relative bg-[#101123] text-gray-200 rounded-xl shadow-md hover:shadow-xl">
+            <span class="block text-center text-emerald-800 font-bold text-[15px]">(Sep 2025-Present)</span>
+            <div class="flex flex-col sm:flex-row items-center sm:items-start mt-2 gap-4">
+              <div class="text-2xl text-blue-700 text-center sm:text-left">
+                <i class="fa-solid fa-laptop"></i>
+              </div>
+              <div class="text-center sm:text-left">
+                <h1 class="text-[20px] font-bold">SELF EMPLOYED</h1>
+                <p class="text-[14px] font-normal">Code and build something everyday</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Experiences sission end -->
+
+  <!-- skills sission start-->
+  <div id="skills" class="skills">
+    <div class="container min-h[400px]  px-20 bg-[#101123] ">
+      <div class="text-center py-2">
+        <button
+          class="text-2xl riten  font-bold text-white bg-gray-500 rounded-md px-6 py-2 shadow-lg hover:bg-gray-600 transition">skills</button>
+      </div>
+
+
+      <div class="overflow-hidden w-full ">
+        <div class="slider py-30">
+
+          <!-- Example item -->
+
+          <div
+            class="flex flex-col items-center text-white bg-gray-600  rounded-xl p-3 m-2 shadow-lg h-[150px]  min-w-[150px] hover:scale-105">
+            <img src="./public/imags/icons8-tailwind-css-100.png" class="w-16 h-16 object-contain">
+            <p class="py-3 font-bold text-2xl">Tailwind</p>
+          </div>
+          <div
+            class="flex flex-col items-center text-white bg-gray-600  rounded-xl p-3 m-2 shadow-lg h-[150px]  min-w-[150px] hover:scale-105">
+            <img src="./public/imags/bootstrap.png" class="w-16 h-16 object-contain">
+            <p class="py-3 font-bold text-2xl">Bootstrap</p>
+          </div>
+
+          <div
+            class="flex flex-col items-center text-white bg-gray-600  rounded-xl p-3 m-2 shadow-lg h-[150px] min-w-[150px] hover:scale-105">
+            <img src="./public/imags/html.png" class="w-16 h-16 object-contain">
+            <p class="py-3 font-bold text-2xl">HTML</p>
+          </div>
+
+          <div
+            class="flex flex-col items-center text-white bg-gray-600  rounded-xl p-3 m-2 shadow-lg h-[150px]  min-w-[150px] hover:scale-105">
+            <img src="./public/imags/javascript.png" class="w-16 h-16 object-contain">
+            <p class="py-3 font-bold text-2xl">JavaScript</p>
+          </div>
+
+          <div
+            class="flex flex-col items-center text-white bg-gray-600 rounded-xl p-3 m-2 shadow-lg h-[150px] min-w-[150px] hover:scale-105">
+            <img src="./public/imags/react.png" class="w-16 h-16 object-contain">
+            <p class="py-3 font-bold text-2xl">React</p>
+          </div>
+
+          <div
+            class="flex flex-col items-center text-white bg-gray-600  rounded-xl p-3 m-2 shadow-lg h-[150px] min-w-[150px] hover:scale-105">
+            <img src="./public/imags/nodejs.png" class="w-16 h-16 object-contain">
+            <p class="py-3 font-bold text-2xl">Node.js</p>
+          </div>
+
+          <div
+            class="flex flex-col items-center text-white bg-gray-600  rounded-xl p-3 m-2 shadow-lg min-w-[150px] h-[150px] hover:scale-105">
+            <img src="./public/imags/jquery.png" class="w-16 h-16 object-contain">
+            <p class="py-3 font-bold text-2xl">Jquery.js</p>
+          </div>
+          <div
+            class="flex flex-col items-center text-white bg-gray-600  rounded-xl p-3 m-2 shadow-lg min-w-[150px] h-[150px] hover:scale-105">
+            <img src="./public/imags/css.png" class="w-16 h-16 object-contain">
+            <p class="py-3 font-bold text-2xl">Css</p>
+          </div>
+
+          <div
+            class="flex flex-col items-center text-white bg-gray-600  rounded-xl p-3 m-2 shadow-lg min-w-[150px] h-[150px] hover:scale-105">
+            <img src="./public/imags/sass.png" class="w-16 h-16 object-contain">
+            <p class="py-3 font-bold text-2xl ">sass</p>
+          </div>
+          <div
+            class="flex flex-col items-center text-white bg-gray-600  rounded-xl p-3 m-2 shadow-lg min-w-[150px] h-[150px] hover:scale-105">
+            <img src="./public/imags/nodejs.png" class="w-16 h-16 object-contain">
+            <p class="py-3 font-bold text-2xl ">Nodejs</p>
+          </div>
+          <div
+            class="flex flex-col items-center text-white bg-gray-600  rounded-xl p-3 m-2 shadow-lg min-w-[150px] h-[150px] hover:scale-105">
+            <img src="./public/imags/mysql.png" class="w-16 h-16 object-contain">
+            <p class="py-3 font-bold text-2xl ">sass</p>
+          </div>
+          <div
+            class="flex flex-col items-center text-white bg-gray-600  rounded-xl p-3 m-2 shadow-lg h-[150px]  min-w-[150px] hover:scale-105">
+            <img src="./public/imags/bootstrap.png" class="w-16 h-16 object-contain">
+            <p class="py-3 font-bold text-2xl">Bootstrap</p>
+          </div>
+
+          <div
+            class="flex flex-col items-center text-white bg-gray-600  rounded-xl p-3 m-2 shadow-lg h-[150px] min-w-[150px] hover:scale-105">
+            <img src="./public/imags/html.png" class="w-16 h-16 object-contain">
+            <p class="py-3 font-bold text-2xl">HTML</p>
+          </div>
+
+          <div
+            class="flex flex-col items-center text-white bg-gray-600  rounded-xl p-3 m-2 shadow-lg h-[150px]  min-w-[150px] hover:scale-105">
+            <img src="./public/imags/javascript.png" class="w-16 h-16 object-contain">
+            <p class="py-3 font-bold text-2xl">JavaScript</p>
+          </div>
+
+          <div
+            class="flex flex-col items-center text-white bg-gray-600 rounded-xl p-3 m-2 shadow-lg h-[150px] min-w-[150px] hover:scale-105">
+            <img src="./public/imags/react.png" class="w-16 h-16 object-contain">
+            <p class="py-3 font-bold text-2xl">React</p>
+          </div>
+
+          <div
+            class="flex flex-col items-center text-white bg-gray-600  rounded-xl p-3 m-2 shadow-lg h-[150px] min-w-[150px] hover:scale-105">
+            <img src="./public/imags/nodejs.png" class="w-16 h-16 object-contain">
+            <p class="py-3 font-bold text-2xl">Node.js</p>
+          </div>
+
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+
+  <!-- skills sission end-->
+  <!-- PROJECTS sission  start -->
+  <div id="projects" class="bg-[#101123] py-10 px-5 md:px-20">
+
+    <!-- Section Title -->
+    <div class="text-center py-4">
+      <button
+        class="text-2xl px-5 font-bold text-white bg-gray-500 rounded-md py-2 shadow-lg hover:bg-gray-600 transition">
+        Projects
+      </button>
+    </div>
+
+    <!-- Projects Container -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 justify-items-center">
+
+      <!-- CosyNeeds Project Card -->
+      <div class="bg-amber-700 rounded-xl w-full max-w-sm hover:scale-105 transition-transform shadow-lg">
+        <img src="./public/imags/3.jpg" alt="CosyNeeds" class="w-full h-48 sm:h-40 object-cover rounded-t-xl mb-4">
+        <div class="p-4">
+          <h3 class="text-xl font-bold text-fuchsia-400 mb-2">CosyNeeds</h3>
+          <p class="text-white mb-3 text-sm sm:text-base">
+            CosyNeeds is an online store offering stylish home and garden décor, from wall art to plants, lighting, and
+            cozy essentials....
+          </p>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-2 py-1 bg-gray-500 text-gray-600 rounded-2xl font-bold border border-gray-500">HTML</span>
+            <span class="px-2 py-1 bg-gray-500 text-gray-600 rounded-2xl font-bold border border-gray-500">React</span>
+            <span class="px-2 py-1 bg-gray-500 text-gray-600 rounded-2xl font-bold border border-gray-500">CSS</span>
+            <span
+              class="px-2 py-1 bg-gray-500 text-gray-600 rounded-2xl font-bold border border-gray-500">Tailwind</span>
+            <span class="px-2 py-1 bg-gray-500 text-gray-600 rounded-2xl font-bold border border-gray-500">Nodejs</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ahmad's IT Project Card -->
+      <div class="bg-gray-700 rounded-xl w-full max-w-sm hover:scale-105 transition-transform shadow-lg">
+        <img src="./public/imags/4.jpg" alt="Ahmad's IT" class="w-full h-48 sm:h-40 object-cover rounded-t-xl mb-4">
+        <div class="p-4">
+          <h3 class="text-xl font-bold text-fuchsia-400 mb-2">Ahmad's IT</h3>
+          <p class="text-white mb-3 text-sm sm:text-base">
+            Ahmad's IT is an educational platform offering IT courses, tutorials, and resources to help learners build
+            digital skills confidently....
+          </p>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-2 py-1 bg-gray-500 text-gray-600 rounded-2xl font-bold border border-gray-500">HTML</span>
+            <span class="px-2 py-1 bg-gray-500 text-gray-600 rounded-2xl font-bold border border-gray-500">React</span>
+            <span class="px-2 py-1 bg-gray-500 text-gray-600 rounded-2xl font-bold border border-gray-500">CSS</span>
+            <span
+              class="px-2 py-1 bg-gray-500 text-gray-600 rounded-2xl font-bold border border-gray-500">Tailwind</span>
+            <span class="px-2 py-1 bg-gray-500 text-gray-600 rounded-2xl font-bold border border-gray-500">Nodejs</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Online Education Project Card -->
+      <div class="bg-gray-700 rounded-xl w-full max-w-sm hover:scale-105 transition-transform shadow-lg">
+        <img src="./public/imags/photo-.avif" alt="Online Education"
+          class="w-full h-48 sm:h-40 object-cover rounded-t-xl mb-4">
+        <div class="p-4">
+          <h3 class="text-xl font-bold text-fuchsia-400 mb-2">Online-Education</h3>
+          <p class="text-white mb-3 text-sm sm:text-base">
+            Online-Education is a digital learning platform offering courses, tutorials, and certifications to help
+            students learn anytime, anywhere, at their pace.....
+          </p>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-2 py-1 bg-gray-500 text-gray-600 rounded-2xl font-bold border border-gray-500">HTML</span>
+            <span class="px-2 py-1 bg-gray-500 text-gray-600 rounded-2xl font-bold border border-gray-500">React</span>
+            <span class="px-2 py-1 bg-gray-500 text-gray-600 rounded-2xl font-bold border border-gray-500">CSS</span>
+            <span
+              class="px-2 py-1 bg-gray-500 text-gray-600 rounded-2xl font-bold border border-gray-500">Tailwind</span>
+            <span class="px-2 py-1 bg-gray-500 text-gray-600 rounded-2xl font-bold border border-gray-500">Nodejs</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- PROJECTS sission  end-->
+
+  <!-- Educations sistion start -->
+
+
+  <div id="education" class="Educations">
+    <div class="container px-5 sm:px-10 md:px-20 bg-[#101123] py-10">
+      <!-- Section Title -->
+      <div class="text-center py-4">
+        <button
+          class="text-2xl font-bold text-white bg-gray-500 rounded-md px-6 py-2 shadow-lg hover:bg-gray-600 transition">
+          Educations
+        </button>
+      </div>
+
+      <!-- Content -->
+      <div class="flex flex-col md:flex-row md:justify-between items-center gap-10">
+        <!-- Image -->
+        <div class="w-full md:w-1/3 flex justify-center">
+          <img src="./public/imags/converted_image_300x300.jpg"
+            class="w-full max-w-xs object-cover rounded-lg shadow-2xl drop-shadow-[0_20px_15px_rgba(0,0,0,0.5)]"
+            alt="Floating image">
+        </div>
+
+        <!-- Education Items -->
+        <div class="flex flex-col gap-6 w-full md:w-2/3">
+          <div
+            class="text-gray-400 border-2 px-5 py-3 bg-[#101123] border-gray-700 hover:border-blue-500 transition duration-300 rounded-lg">
+            <span class="block text-center text-cyan-950 font-bold text-[15px]">(2025-Present)</span>
+            <div class="flex flex-col sm:flex-row sm:items-center mt-2">
+              <div class="text-center pr-4 text-2xl text-blue-950 py-2">
+                <i class="fa-solid fa-laptop"></i>
+              </div>
+              <div class="pt-2 sm:pt-0">
+                <h1 class="text-[20px] font-bold">Ahmad's Education</h1>
+                <p class="text-[14px] font-normal">Diploma in English Computer Technology</p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="text-gray-400 border-2 px-5 py-3 bg-[#101123] border-gray-700 hover:border-blue-500 transition duration-300 rounded-lg">
+            <span class="block text-center text-cyan-950 font-bold text-[15px]">(2023-2025)</span>
+            <div class="flex flex-col sm:flex-row sm:items-center mt-2">
+              <div class="text-center pr-4 text-2xl text-blue-900 py-2">
+                <i class="fa-solid fa-laptop"></i>
+              </div>
+              <div class="pt-2 sm:pt-0">
+                <h1 class="text-[20px] font-bold">Master’s in Islamic Studies</h1>
+                <p class="text-[14px] font-normal">Narsingdi Goveernmuent College</p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="text-gray-400 border-2 px-5 py-3 bg-[#101123] border-gray-700 hover:border-blue-500 transition duration-300 rounded-lg">
+            <span class="block text-center text-cyan-950 font-bold text-[15px]">(Sep 2025-Present)</span>
+            <div class="flex flex-col sm:flex-row sm:items-center mt-2">
+              <div class="text-center pr-4 text-2xl text-blue-900 py-2">
+                <i class="fa-solid fa-laptop"></i>
+              </div>
+              <div class="pt-2 sm:pt-0">
+                <h1 class="text-[20px] font-bold">Complete Web Development Course</h1>
+                <p class="text-[14px] font-normal">Programming Hero</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Educations sistion end -->
+
+  <!-- Bloge sissions tart  -->
+  <div id="bloge" class="Bloge">
+    <div class="container h-[400px]  px-20 bg-[#101123]">
+
+      <div class="text-center py-2 pb-10">
+        <button
+          class=" text-2xl px-5 font-bold  text-white bg-gray-500 rounded-md py-2 shadow-lg hover:bg-gray-600 transition ">Bloge</button>
+      </div>
+      <div class="text-[40px] text-gray-400 font-bold">
+        <h1>Coming soon....</h1>
+      </div>
+      <div class="text-center py-25 pb-10">
+        <button
+          class=" text-2xl px-5 font-bold  text-white bg-fuchsia-500 rounded-2xl py-2 shadow-lg hover:bg-gray-600 transition ">VIEW
+          NORE</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bloge sissions end  -->
+
+
+  <!-- CONTACT sistion start -->
+  <div class="CONTACT">
+    <div class="container px-5 md:px-20 py-10 bg-[#101123]">
+
+      <!-- Section Title -->
+      <div class="text-center py-4">
+        <button
+          class="text-2xl px-5 font-bold text-white bg-gray-500 rounded-md py-2 shadow-lg hover:bg-gray-600 transition">
+          CONTACT
+        </button>
+      </div>
+
+      <!-- Grid for Form and Info -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+
+        <!-- Contact Form -->
+        <div class="border border-gray-600 p-6 rounded-2xl bg-[#101123]">
+          <p class="text-gray-300 font-bold mb-6">
+            If you have any questions or concerns, please don't hesitate to contact me. I am open to any work
+            opportunities that align with my skills and interests.
+          </p>
+
+          <div class="mb-4">
+            <label class="block text-white text-[15px] mb-2" for="name">Your Name:</label>
+            <input class="w-full p-2 rounded-[5px] border border-gray-400 text-white bg-transparent outline-none"
+              type="text" id="name">
+          </div>
+
+          <div class="mb-4">
+            <label class="block text-white text-[15px] mb-2" for="email">Your Email:</label>
+            <input class="w-full p-2 rounded-[5px] border border-gray-400 text-white bg-transparent outline-none"
+              type="email" id="email">
+          </div>
+
+          <div class="mb-4">
+            <label class="block text-white text-[15px] mb-2" for="message">Your Message:</label>
+            <textarea
+              class="w-full h-32 p-2 rounded-[5px] border border-gray-400 text-white bg-transparent outline-none"
+              id="message"></textarea>
+          </div>
+
+          <div class="text-center">
+            <button
+              class="text-[15px] px-5 font-bold text-white bg-gray-500 rounded-md py-2 shadow-lg hover:bg-gray-600 transition">
+              SEND Message
+            </button>
+          </div>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="text-white flex flex-col justify-between">
+          <div class="space-y-4 text-[18px]">
+            <div class="flex items-center space-x-3">
+              <i class="text-rose-400 text-3xl fa-brands fa-square-facebook"></i>
+              <span>mdyacinsorkar17@gmail.com</span>
+            </div>
+            <div class="flex items-center space-x-3">
+              <i class="text-emerald-800 text-3xl fa-brands fa-telegram"></i>
+              <span>+8801789461747</span>
+            </div>
+            <div class="flex items-center space-x-3">
+              <i class="text-rose-400 text-3xl fa-solid fa-location-dot"></i>
+              <span>Dhaka, Bangladesh</span>
+            </div>
+          </div>
+
+          <!-- Social Icons -->
+          <div class="flex space-x-4 pt-6 text-4xl">
+            <i class="fa-brands fa-github text-fuchsia-800 hover:text-yellow-950 hover:scale-125 transition"></i>
+            <i class="fa-brands fa-facebook text-cyan-700 hover:text-yellow-500 hover:scale-125 transition"></i>
+            <i class="fa-brands fa-linkedin text-rose-400 hover:text-emerald-800 hover:scale-125 transition"></i>
+            <i class="fa-brands fa-telegram text-gray-500 hover:text-fuchsia-700 hover:scale-125 transition"></i>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- CONTACT sistion end -->
+
+
+  <!-- Typed.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="./src/main.js"></script>
+</body>
+
+</html>

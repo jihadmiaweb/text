@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.slider {
+    display: flex;
+    width: 200%;
+
+    animation: scroll 40s linear infinite;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.vertical-text {
+    writing-mode: vertical-rl;
+    /* উল্লম্বভাবে লেখা */
+    text-orientation: upright;
+    /* অক্ষরগুলো সোজা থাকবে */
+    font-size: 30px;
+    font-weight: bold;
+}
