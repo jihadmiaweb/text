@@ -43,7 +43,7 @@
       <!-- <-- naveber end -->
       <!-- <-- biner start -->
       <div id="home"
-        class="bg-[#101123] min-h-screen flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-20 py-10">
+        class="bg-[#101123] min-h-screen flex  flex-col-reverse md:flex-row items-center justify-between  py-10">
         <!-- Left Content -->
         <div class="w-full md:w-1/2 text-center md:text-left">
           <!-- Heading -->
@@ -102,9 +102,9 @@
 
   <!-- biner end - -->
   <!-- hireo sissone start -->
-  <div id="about" class="HiOre container">
+  <div id="about" class="HiOre  container">
     <div
-      class="bg-[#101123ec] min-h-screen px-6 md:px-20 flex flex-col md:flex-row items-center justify-between gap-10 py-10">
+      class="bg-[#101123] min-h-screen px-6 md:px-20 flex flex-col md:flex-row items-center justify-between gap-10 py-10">
 
       <!-- Left Content -->
       <div class=" sm:pt-10 text-white max-w-lg text-center md:text-left">
@@ -151,11 +151,13 @@
       <!-- Content -->
       <div class="flex flex-col md:flex-row justify-between items-center gap-10 mt-10">
 
-        <!-- Image -->
-        <div class="w-full sm:w-[100px] md:w-1/2 flex justify-center bg-[#101123]">
-          <img src="/imags/download.png" alt="Experience Logo"
-            class="object-cover rounded-lg shadow-md w-full max-w-md md:max-w-none">
+
+
+        <div className="w-full sm:w-[100px] md:w-1/2 flex justify-center bg-[#101123]">
+          <img src="/imags/download.png" alt="Experience Logo" className="object-cover rounded-lg shadow-md w-full max-w-md md:max-w-none
+               transition-transform duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-cyan-500/40" />
         </div>
+
 
         <!-- Experience Boxes -->
         <div class="box-item w-full md:w-1/2 flex flex-col gap-6">
@@ -538,7 +540,7 @@
         </div>
 
         <!-- Contact Info -->
-        <div class="text-white flex flex-col justify-between">
+        <div class="text-white flex flex-col justify-between pt-40">
           <div class="space-y-4 text-[18px]">
             <div class="flex items-center space-x-3">
               <i class="text-rose-400 text-3xl fa-brands fa-square-facebook"></i>
@@ -555,7 +557,7 @@
           </div>
 
           <!-- Social Icons -->
-          <div class="flex space-x-4 pt-6 text-4xl">
+          <div class="flex space-x-4  text-4xl">
             <i class="fa-brands fa-github text-fuchsia-800 hover:text-yellow-950 hover:scale-125 transition"></i>
             <i class="fa-brands fa-facebook text-cyan-700 hover:text-yellow-500 hover:scale-125 transition"></i>
             <i class="fa-brands fa-linkedin text-rose-400 hover:text-emerald-800 hover:scale-125 transition"></i>
